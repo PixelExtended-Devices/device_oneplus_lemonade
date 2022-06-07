@@ -52,13 +52,7 @@ odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
 odm/etc/sensor/config/lahaina_qrd_sx932x.json
 odm/etc/sensor/config/lahaina_qrd_sx932x_down.json
 odm/etc/sensor/config/lahaina_tcs3707.json
-
-# Sensors - from OOS12 C.60 IND-LE2111
-odm/etc/sensor/sensor_config.json|7dee6dba26a492f6f38397eedf46cdc35d588847
-vendor/bin/sensor.qti|0cc6d97c418cd07e0227b0cab197167cceb8d2f8
-vendor/lib64/libsensorcal.so|9df04d72592e271efb04cfca81f16b137b539411
-vendor/lib64/libssc.so|1edd8a472cda4168cff68399c7e98f102c4e9646
-vendor/lib64/sensors.ssc.so|7cf28e06de7cff5d57836b28c368fed79a0748d5
+odm/etc/sensor/sensor_config.json
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
