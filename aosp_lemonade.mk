@@ -14,8 +14,6 @@ $(call inherit-product, device/oneplus/lemonade/device.mk)
 # Inherit some common PEX stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-EXTRA_UDFPS_ANIMATIONS := true
-
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -37,3 +35,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := OnePlus/OnePlus9/OnePlus9:12/RKQ1.211119.001/R.202206251226:user/release-keys
+
+# PEX Stuff
+PEX_BUILD_TYPE := OFFICIAL
+EXTRA_UDFPS_ANIMATIONS := true
