@@ -1,0 +1,8 @@
+[
+  {
+   "remote": "github",
+   "repository": "PixelExtended-Devices/device_oneplus_sm8350-common",
+   "target_path": "device/oneplus/sm8350-common"
+   "branch": "trece"
+  }
+]
